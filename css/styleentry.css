@@ -1,0 +1,152 @@
+header nav ul { /*nav bar*/
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li { /*nav bar*/
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    color: antiquewhite;
+}
+
+@media screen and (max-width: 960px) {
+    header nav ul li {
+        font-size: 18px;
+    } 
+}
+
+header nav ul li img { /*nav bar*/
+    margin-top: -20px;
+}
+
+/*
+font-family: 'Roboto', sans-serif;
+
+font-family: 'Roboto Mono', monospace;
+
+font-family: 'Roboto Slab', serif;
+*/
+
+body {
+    background-color: #FAF4F5;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: antiquewhite;
+}
+
+header {
+    width: 100%;
+    /*position: fixed;*/
+    padding: 30px;
+    background-color: #130F10;
+    min-height: 650px;
+}
+
+
+main {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    /*position: fixed;*/
+    padding: 30px;
+    background-color: #f0e7dd;
+    color: #554949;
+
+}
+
+footer {
+    background-color: #130F10;
+}
+
+.flex-wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.headertext {
+    margin-top: 100px;
+    max-width: 350px;
+}
+
+.slab {
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+}
+
+.txtcolorgray {
+    color: #6e1f33;
+}
+
+.image {
+    max-width: 460px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media screen  and (max-width: 960px) {
+   .flex-wrapper {
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .image {
+       margin-top: 24px;
+       max-width: 360px;
+   }
+   .headertext {
+    margin-top: 36px;
+    max-width: 350px;
+}
+}
+
+.lighterfont {
+    font-weight: 400;
+    color: #beaaaa;
+}
+
+.textspace {
+    padding-bottom: 24px;
+}
+
+/*main article*/
+
+.fontsize-p {
+    font-size-adjust: inherit;
+}
+
+.textmid {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+@media screen and (max-width: 900px) {
+    .textmid {
+        padding-left: 20px;
+        padding-right: 20px;
+    } 
+}
+
+.redtitle {
+    color: #3e557e;
+}
+
+.footerspace {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #130F10;
+}
+
+.flex-wrapperfoot {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+   }
+
+.footer {
+    flex-basis: 50%;
+}

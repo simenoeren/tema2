@@ -1,34 +1,100 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-		<title>Ny title</title>
-		<style>
-		  body{
-			background-color: #d3d3d3;
-		  }
-		  p{
-			color:  #1c87c9;
-		  }
-		  a{
-			color: red;
-		  }
-		</style>
+		<title>Panda Studio | Home</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="../css/style.css">
+		<!-- Write your comments here -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600&family=Roboto+Slab:wght@300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
     </head>
 
 	<body>
-		<header>		
-         	<div>
-			DESIGNBLOGGEN eerrr
-			</div>
+		<header class="fixed">
+			<nav>
+				<ul>
+					<li class="hidemobile">
+						About
+					</li>
+					<li>
+						<a href="./index.html">
+							<img src="./assets/logohome.svg" alt="logo">
+						</a>
+					</li>
+					<li class="hidemobile">
+						Contact
+					</li>
+				</ul>
+			</nav>
+
 		</header>
 
+		<div class="hero"><img src="./assets/bannehome.jpg">
+			<div class="welcome">Dolore magna aliqua</div>
+		</div>
+
 		<main>
-			<section>
-				<h2> section
-				</h2>
+			<div class="flex-wrapper">
+
+				
+				<div class="cardActive">
+					<a href="./entry.html">
+						<img src="assets/card2.png" alt="CREDIT UNSPLASH" class="cardActiveimg">
+					</a>
+					<div class="cardContent">
+						<span class="cardActiveCategoryText">MINUMA, VENIAM</span>
+						<h2 class="cardActiveTitleText">Nostruda exercitation</h2>
+						<p class="cardActiveBodyText">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+						<!--	<div> <img src="timeicon" alt="TIME SINCE UPLOAD">
+								<span class="cardActiveTimer">8 mins ago</span> 	
+						</div>	-->
+						<!-- 	<div>
+							<img src="profilepic2" alt="CREDIT UNSPLASH">
+							<span class="profileNameText">Duis Ullamco</span>
+							<p class="profileRoleText">Designer</p>
+						</div>	-->
+					</div>
+				</div>
+				
+
+				<div class="card">
+					<img src="assets/card1.png" alt="CREDIT UNSPLASH" class="cardimg"> 
+					<div class="cardContent">
+						<span class="cardCategoryText">MAGNA, ALIQUA</span>
+						<span class="cardDateText">Yesterday</span>
+						<h2 class="cardTitleText">Commodo consequat</h2>
+						<p class="cardBodyText">Eiusmod tempor incididunt ut labore et dolore magna aliqua. Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+						<!-- <div>
+							<img src="profilepic1" alt="CREDIT UNSPLASH">
+							<span class="profileNameText">Duis Ullamco</span>
+							<p class="profileRoleText">Designer</p>
+						</div> -->
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="assets/card3.png" alt="CREDIT UNSPLASH" class="cardimg">
+					<div class="cardContent">
+						<p>
+							<span class="cardCategoryText">TEMPOR, NATERGA</span>
+							<span class="cardDateText">Saturday</span>
+						</p>
+						<h2 class="cardTitleText">Victo Riax</h2>
+						<p class="cardBodyText">Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+						<!-- <img src="profilepic3" alt="CREDIT UNSPLASH">
+						<span class="profileNameText">Duis Ullamco</span>
+						<p class="profileRoleText">Designer</p>	-->
+					</div>
+				</div>
+
+
+			</div>			
 		</main>
-
-		<footer> footer
-		
+		<footer>
+			<div class="footerspace">
+				<p>© Panda Studio 2021</p>
+			</div>
 		</footer>
-
 </html>
